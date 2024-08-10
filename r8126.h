@@ -678,7 +678,7 @@ This is free software, and you are welcome to redistribute it under certain cond
 #ifndef ADVERTISED_2500baseX_Full
 #define ADVERTISED_2500baseX_Full  0x8000
 #endif
-#define RTK_ADVERTISED_5000baseX_Full  BIT(48)
+#define RTK_ADVERTISED_5000baseX_Full BIT_ULL(48)
 
 #define RTK_ADVERTISE_2500FULL  0x80
 #define RTK_ADVERTISE_5000FULL  0x100
